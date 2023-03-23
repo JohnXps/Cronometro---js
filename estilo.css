@@ -1,0 +1,77 @@
+@font-face{
+    font-family: Elements;
+    src: url(./Fontes/Elements.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://www.fredzone.org/wp-content/uploads/2022/07/The-Flash-1536x864.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: -40px;
+}
+
+.cronometro {
+    text-align: center;
+    margin-top: 20vh;
+    
+}
+
+.cronometro h1 {
+    font-size: 120px;
+    font-family: Elements;
+    color: #fbff00e7;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #a81818;
+    
+}
+
+.cronometro p {
+    color: #e6ff02;
+    font-size: 90px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    
+    
+
+}
+
+.cronometro span{
+    
+    font-size: 90px;
+    color: #fc1010;
+}
+
+.cronometro button{
+    font-size: 40px;
+    color: #ff0000;
+    background-color: #0000007e;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #ffe600;
+    border-radius: 10px;
+    padding: 6px;
+    border: #00000000;
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 38px;
+    background-color: #00000093;
+    font-size: 26px;
+    font-family: georgia;
+    box-shadow: -1px 1px 10px #000000;
+    color: #ffffffdc;
+    text-align: center;
+}
+
+footer a {
+    color: #ffffffdc;
+    text-decoration: none;
+ }
